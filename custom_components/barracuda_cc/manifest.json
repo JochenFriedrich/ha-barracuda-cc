@@ -1,0 +1,12 @@
+{
+  "domain": "barracuda_cc",
+  "name": "Barracuda CloudGen Firewall Control Center",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/JochenFriedrich/ha-barracuda-cc",
+  "issue_tracker": "https://github.com/JochenFriedrich/ha-barracuda-cc/issues",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@JochenFriedrich"],
+  "iot_class": "local_polling"
+}

@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Barracuda Control Center",
+        "data": {
+          "host": "Host / IP address",
+          "port": "Port",
+          "auth_method": "Authentication method",
+          "api_token": "API Token",
+          "username": "Username",
+          "password": "Password",
+          "verify_ssl": "Verify SSL certificate"
+        },
+        "data_description": {
+          "auth_method": "Choose 'api_token' (recommended) or 'basic' for username/password",
+          "api_token": "Generate in CC: Configuration Tree → Box → Infrastructure Services → REST API Service → Access Tokens"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Check host and port.",
+      "invalid_auth": "Invalid credentials or token.",
+      "credentials_required": "Username and password are required for basic auth.",
+      "api_token_required": "API token is required.",
+      "unknown": "Unexpected error. Check the logs."
+    },
+    "abort": {
+      "already_configured": "This Control Center is already configured."
+    }
+  }
+}
